@@ -815,10 +815,6 @@ export const questionSets = [
     description: 'Improve your understanding in computer security',
     icon: '📚',
     questions: [
-      [
-  // ============================
-  // MULTIPLE CHOICE (1–40)
-  // ============================
   {
     id: 1,
     type: 'multiple-choice',
@@ -1448,8 +1444,6 @@ export const questionSets = [
     correctAnswer: 'Digital Rights Management',
     explanation: 'DRM protects intellectual property and prevents piracy.'
   }
-]
-
     ]
   }
   

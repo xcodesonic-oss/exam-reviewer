@@ -159,7 +159,7 @@ body {
 
 .choice:hover:not(:disabled) {
   border-color: #4f46e5;
-  background: #f8faff;
+  /* background: #f8faff; */
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(79, 70, 229, 0.15);
 }

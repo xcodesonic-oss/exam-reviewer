@@ -1,0 +1,51 @@
+import React, { useState } from 'react';
+
+const ShortAnswer = ({ question, onSubmit, userAnswer }) => {
+  const [answer, setAnswer] = useState('');
+
+  const handleSubmit = () => {
+    if (!answer.trim()) return;
+    
+    const isCorrect = answer.trim().toLowerCase() === question.correctAnswer.toLowerCase();
+    onSubmit(answer, isCorrect);
+  };
+
+  return (
+    <div className="question-container">
+      <h2 className="question-text">{question.question}</h2>
+
+      <div className="answer-input">
+        <input
+          type="text"
+          value={answer}
+          onChange={(e) => setAnswer(e.target.value)}
+          placeholder="Type your answer here..."
+          disabled={!!userAnswer}
+          className={userAnswer ? (userAnswer.isCorrect ? 'input-correct' : 'input-incorrect') : ''}
+        />
+      </div>
+
+      {!userAnswer && (
+        <button 
+          className="submit-btn"
+          onClick={handleSubmit}
+          disabled={!answer.trim()}
+        >
+          Submit Answer
+        </button>
+      )}
+
+      {userAnswer && (
+        <div className="feedback">
+          <p className={userAnswer.isCorrect ? 'feedback-correct' : 'feedback-incorrect'}>
+            {userAnswer.isCorrect ? 'Correct!' : 'Incorrect'}
+          </p>
+          <p><strong>Correct answer:</strong> {userAnswer.correctAnswer}</p>
+          <p className="explanation">{userAnswer.explanation}</p>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default ShortAnswer;

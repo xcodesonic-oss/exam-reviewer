@@ -2058,7 +2058,1111 @@ export const questionSets = [
         explanation: 'Digital Rights Management (DRM) protects digital content from unauthorized use.'
       }
     ]
-  }
+  },
+  {
+    id: 'Fundamentals of Database System',
+    subject: "Sir Otoc",
+    description: 'Become a Database Master',
+    icon: '📚',
+    questions: [
+      
+  {
+    id: 1,
+    type: 'short-answer',
+    question: 'What do we call raw and unorganized facts such as name, age, or height?',
+    correctAnswer: 'Data',
+    explanation: 'Data refers to raw, unorganized facts that need processing to become meaningful.'
+  },
+  {
+    id: 2,
+    type: 'short-answer',
+    question: 'A collection of related data which represents some aspect of the real world is called a _______.',
+    correctAnswer: 'Database',
+    explanation: 'A database is a systematic collection of related data.'
+  },
+  {
+    id: 3,
+    type: 'multiple-choice',
+    question: 'Which of the following is NOT a component of a database system?',
+    choices: ['Hardware', 'Software', 'Procedure', 'Algorithm'],
+    correctAnswer: 'Algorithm',
+    explanation: 'The main components are Hardware, Software, Data, Procedure, and Data Access Language.'
+  },
+  {
+    id: 4,
+    type: 'short-answer',
+    question: 'Which component of a database system consists of physical devices like computers and storage?',
+    correctAnswer: 'Hardware',
+    explanation: 'Hardware includes computers, I/O devices, and storage devices.'
+  },
+  {
+    id: 5,
+    type: 'multiple-choice',
+    question: 'Which component of a database system includes DBMS software, OS, and application programs?',
+    choices: ['Data', 'Software', 'Procedure', 'Hardware'],
+    correctAnswer: 'Software',
+    explanation: 'Software manages and controls the overall database.'
+  },
+  {
+    id: 6,
+    type: 'short-answer',
+    question: 'A set of instructions and rules that help users operate and manage the DBMS is called _______.',
+    correctAnswer: 'Procedure',
+    explanation: 'Procedures guide users in designing, running, and managing the database.'
+  },
+  {
+    id: 7,
+    type: 'multiple-choice',
+    question: 'Which language is used to access, update, or retrieve data from a database?',
+    choices: ['Python', 'SQL', 'C++', 'Java'],
+    correctAnswer: 'SQL',
+    explanation: 'SQL is the standard database access language for relational databases.'
+  },
+  {
+    id: 8,
+    type: 'short-answer',
+    question: 'What does DBMS stand for?',
+    correctAnswer: 'Database Management System',
+    explanation: 'DBMS stands for Database Management System.'
+  },
+  {
+    id: 9,
+    type: 'multiple-choice',
+    question: 'Which type of database organizes data in a tree-like structure with parent-child relationships?',
+    choices: ['Network', 'Hierarchical', 'Relational', 'NoSQL'],
+    correctAnswer: 'Hierarchical',
+    explanation: 'Hierarchical databases store data in a tree structure.'
+  },
+  {
+    id: 10,
+    type: 'multiple-choice',
+    question: 'Which database type uses tables with rows and columns and is the most widely used?',
+    choices: ['Relational', 'Network', 'Object-Oriented', 'Hierarchical'],
+    correctAnswer: 'Relational',
+    explanation: 'Relational databases use tables and SQL for data manipulation.'
+  },
+  {
+    id: 11,
+    type: 'multiple-choice',
+    question: 'Which type of database allows multiple parent-child relationships?',
+    choices: ['Relational', 'Network', 'Hierarchical', 'NoSQL'],
+    correctAnswer: 'Network',
+    explanation: 'Network databases allow complex parent-child relationships.'
+  },
+  {
+    id: 12,
+    type: 'short-answer',
+    question: 'Which type of database stores data in the form of objects?',
+    correctAnswer: 'Object-Oriented',
+    explanation: 'Object-Oriented databases support objects and complex data types.'
+  },
+  {
+    id: 13,
+    type: 'short-answer',
+    question: 'Which type of database is designed for unstructured data such as key-value pairs or documents?',
+    correctAnswer: 'NoSQL',
+    explanation: 'NoSQL databases store unstructured data in flexible formats.'
+  },
+  {
+    id: 14,
+    type: 'short-answer',
+    question: 'Who introduced the Relational Model in 1970?',
+    correctAnswer: 'E. F. Codd',
+    explanation: 'E. F. Codd introduced the relational model in 1970.'
+  },
+  {
+    id: 15,
+    type: 'short-answer',
+    question: 'Who designed the first DBMS known as the Integrated Data Store?',
+    correctAnswer: 'Charles Bachman',
+    explanation: 'Charles Bachman designed the first DBMS called Integrated Data Store.'
+  },
+  {
+    id: 16,
+    type: 'short-answer',
+    question: 'What was IBM’s first DBMS called, introduced in the 1960s?',
+    correctAnswer: 'IMS',
+    explanation: 'IBM introduced IMS (Information Management System) in the 1960s.'
+  },
+  {
+    id: 17,
+    type: 'multiple-choice',
+    question: 'Who coined and defined the Entity-Relationship (ER) model in 1976?',
+    choices: ['Peter Chen', 'E. F. Codd', 'Charles Bachman', 'Edgar Dijkstra'],
+    correctAnswer: 'Peter Chen',
+    explanation: 'Peter Chen defined the ER model in 1976.'
+  },
+  {
+    id: 18,
+    type: 'short-answer',
+    question: 'In what decade did Object-Oriented DBMS develop?',
+    correctAnswer: '1980s',
+    explanation: 'Object-Oriented DBMS emerged in the 1980s.'
+  },
+  {
+    id: 19,
+    type: 'short-answer',
+    question: 'What year did Microsoft release MS Access, a personal DBMS?',
+    correctAnswer: '1992',
+    explanation: 'MS Access was released in 1992 as a personal DBMS.'
+  },
+  {
+    id: 20,
+    type: 'short-answer',
+    question: 'What data format introduced in 1995 was applied to database processing?',
+    correctAnswer: 'XML',
+    explanation: 'XML was applied to databases in 1995.'
+  },
+  {
+    id: 21,
+    type: 'multiple-choice',
+    question: 'Which of the following is NOT an advantage of DBMS?',
+    choices: ['Data Integrity', 'Concurrency Control', 'High Cost', 'Efficiency'],
+    correctAnswer: 'High Cost',
+    explanation: 'High cost is a disadvantage, not an advantage.'
+  },
+  {
+    id: 22,
+    type: 'multiple-choice',
+    question: 'Which of the following is a disadvantage of DBMS?',
+    choices: ['Abstraction', 'Data Loss', 'Application Balancing', 'Concurrency Control'],
+    correctAnswer: 'Data Loss',
+    explanation: 'Data Loss is one of the disadvantages of DBMS.'
+  },
+  {
+    id: 23,
+    type: 'short-answer',
+    question: 'What do we call the ability of DBMS to ensure correctness when multiple users access data?',
+    correctAnswer: 'Concurrency Control',
+    explanation: 'Concurrency Control ensures correctness when many users access data.'
+  },
+  {
+    id: 24,
+    type: 'short-answer',
+    question: 'Which advantage of DBMS ensures that stored data remains accurate and consistent?',
+    correctAnswer: 'Data Integrity',
+    explanation: 'Data Integrity ensures accuracy and consistency of data.'
+  },
+  {
+    id: 25,
+    type: 'multiple-choice',
+    question: 'Which advantage of DBMS hides implementation details from users?',
+    choices: ['Efficiency', 'Abstraction', 'Application Balancing', 'Uniform Administration'],
+    correctAnswer: 'Abstraction',
+    explanation: 'Abstraction hides the complexity of data storage and management.'
+  },
+  {
+    id: 26,
+    type: 'short-answer',
+    question: 'Which disadvantage of DBMS refers to the system being difficult to manage and maintain?',
+    correctAnswer: 'Complexity',
+    explanation: 'DBMS can be complex to maintain and manage.'
+  },
+  {
+    id: 27,
+    type: 'multiple-choice',
+    question: 'Which of the following best defines a database?',
+    choices: [
+      'A raw fact or figure',
+      'A collection of related data representing real-world aspects',
+      'A set of instructions for managing data',
+      'A program used to store files'
+    ],
+    correctAnswer: 'A collection of related data representing real-world aspects',
+    explanation: 'A database is a collection of related data that represents aspects of the real world.'
+  },
+  {
+    id: 28,
+    type: 'short-answer',
+    question: 'What DBMS advantage ensures balanced distribution of applications across resources?',
+    correctAnswer: 'Application Balancing',
+    explanation: 'Application Balancing ensures resources are distributed effectively.'
+  },
+  {
+    id: 29,
+    type: 'multiple-choice',
+    question: 'Which disadvantage of DBMS refers to the risk of exposing sensitive data?',
+    choices: ['Data Vulnerability', 'Data Integrity', 'Abstraction', 'Uniform Administration'],
+    correctAnswer: 'Data Vulnerability',
+    explanation: 'Data Vulnerability refers to the exposure of sensitive data.'
+  },
+  {
+    id: 30,
+    type: 'short-answer',
+    question: 'What type of DBMS is most widely used today?',
+    correctAnswer: 'Relational',
+    explanation: 'Relational DBMS is the most widely used database model.'
+  },
+  ////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////
+  {
+    id: 31,
+    type: 'short-answer',
+    question: 'The collection of processes that facilitate the designing, development, and maintenance of enterprise data management systems is called _______.',
+    correctAnswer: 'Database Design',
+    explanation: 'Database design is the structured process of creating and managing databases.'
+  },
+  {
+    id: 32,
+    type: 'multiple-choice',
+    question: 'Which of the following is NOT an objective of database design?',
+    choices: ['Improve consistency', 'Reduce storage cost', 'Increase redundancy', 'Ease of maintenance'],
+    correctAnswer: 'Increase redundancy',
+    explanation: 'Database design aims to reduce redundancy, not increase it.'
+  },
+  {
+    id: 33,
+    type: 'short-answer',
+    question: 'A properly designed database improves ______ consistency.',
+    correctAnswer: 'Data',
+    explanation: 'Database design improves data consistency.'
+  },
+  {
+    id: 34,
+    type: 'multiple-choice',
+    question: 'What does logical design in DBMS focus on?',
+    choices: ['Hardware allocation', 'Physical data storage', 'Data requirements and structure', 'Backup and recovery'],
+    correctAnswer: 'Data requirements and structure',
+    explanation: 'Logical design deals with the required data and its organization without considering physical storage.'
+  },
+  {
+    id: 35,
+    type: 'short-answer',
+    question: 'Which design model involves translating logical DB design into hardware and software systems?',
+    correctAnswer: 'Physical Design',
+    explanation: 'The physical design implements the logical model on actual hardware and DBMS software.'
+  },
+  {
+    id: 36,
+    type: 'multiple-choice',
+    question: 'Why is database design important?',
+    choices: [
+      'It produces high-performance database systems',
+      'It increases redundancy',
+      'It ignores user requirements',
+      'It makes the system more complex'
+    ],
+    correctAnswer: 'It produces high-performance database systems',
+    explanation: 'Good design ensures efficiency, performance, and meeting user requirements.'
+  },
+  {
+    id: 37,
+    type: 'short-answer',
+    question: 'The genius of a database is in its ______.',
+    correctAnswer: 'design',
+    explanation: 'The design determines the effectiveness of a database.'
+  },
+  {
+    id: 38,
+    type: 'multiple-choice',
+    question: 'Which of the following is NOT part of the Database Development Life Cycle (DDLC)?',
+    choices: ['Requirement Analysis', 'Database Designing', 'Implementation', 'Encryption'],
+    correctAnswer: 'Encryption',
+    explanation: 'The DDLC consists of Requirement Analysis, Designing, and Implementation.'
+  },
+  {
+    id: 39,
+    type: 'short-answer',
+    question: 'The first phase of DDLC is ______ Analysis.',
+    correctAnswer: 'Requirement',
+    explanation: 'Requirement Analysis is the first step of DDLC.'
+  },
+  {
+    id: 40,
+    type: 'multiple-choice',
+    question: 'Which DDLC stage defines the scope and boundaries of the proposed system?',
+    choices: ['Testing', 'System Definition', 'Data Conversion', 'Physical Model'],
+    correctAnswer: 'System Definition',
+    explanation: 'System definition is part of the requirement analysis stage.'
+  },
+  {
+    id: 41,
+    type: 'multiple-choice',
+    question: 'During which DDLC stage is the design created on paper without physical implementation?',
+    choices: ['Physical Model', 'Logical Model', 'Implementation', 'Testing'],
+    correctAnswer: 'Logical Model',
+    explanation: 'The logical model is developed before any physical considerations are made.'
+  },
+  {
+    id: 42,
+    type: 'short-answer',
+    question: 'The stage that converts and loads old system data into the new database is called ______.',
+    correctAnswer: 'Data Conversion',
+    explanation: 'Data conversion and loading occur during the implementation stage.'
+  },
+  {
+    id: 43,
+    type: 'multiple-choice',
+    question: 'Which activity is part of the Implementation stage of DDLC?',
+    choices: ['Logical Modeling', 'System Definition', 'Testing', 'Requirement Analysis'],
+    correctAnswer: 'Testing',
+    explanation: 'Testing occurs during the implementation stage to validate the new system.'
+  },
+  {
+    id: 44,
+    type: 'short-answer',
+    question: 'The DDLC stage that identifies errors in the newly implemented system is ______.',
+    correctAnswer: 'Testing',
+    explanation: 'Testing ensures the new database meets requirements.'
+  },
+  {
+    id: 45,
+    type: 'multiple-choice',
+    question: 'Which of the following is NOT a stage in Requirement Analysis?',
+    choices: ['Planning', 'System Definition', 'Logical Model', 'Scope Definition'],
+    correctAnswer: 'Logical Model',
+    explanation: 'Logical modeling is part of the Designing stage, not Requirement Analysis.'
+  },
+  {
+    id: 46,
+    type: 'short-answer',
+    question: 'Which DDLC model considers DBMS and hardware implementation factors?',
+    correctAnswer: 'Physical Model',
+    explanation: 'The physical model maps logical design onto real hardware/software.'
+  },
+  {
+    id: 47,
+    type: 'multiple-choice',
+    question: 'Which technique is used in database design to eliminate redundancy and improve efficiency?',
+    choices: ['Replication', 'Normalization', 'Encryption', 'Partitioning'],
+    correctAnswer: 'Normalization',
+    explanation: 'Normalization reduces redundancy and ensures efficient storage.'
+  },
+  {
+    id: 48,
+    type: 'short-answer',
+    question: 'Which technique in database design uses entities and relationships to model data?',
+    correctAnswer: 'ER Modeling',
+    explanation: 'Entity-Relationship modeling represents data as entities and their relationships.'
+  },
+  {
+    id: 49,
+    type: 'multiple-choice',
+    question: 'Which design is concerned with data requirements, independent of physical storage?',
+    choices: ['Logical Design', 'Physical Design', 'Requirement Analysis', 'Normalization'],
+    correctAnswer: 'Logical Design',
+    explanation: 'Logical design specifies data requirements without storage details.'
+  },
+  {
+    id: 50,
+    type: 'short-answer',
+    question: 'Which stage of DDLC ensures that user requirements are captured and planned?',
+    correctAnswer: 'Requirement Analysis',
+    explanation: 'Requirement analysis captures user needs and plans the database project.'
+  },
+  {
+    id: 51,
+    type: 'multiple-choice',
+    question: 'Which design model is implemented using DBMS and hardware resources?',
+    choices: ['Logical Design', 'Physical Design', 'Conceptual Design', 'ER Modeling'],
+    correctAnswer: 'Physical Design',
+    explanation: 'Physical design implements logical design with hardware and DBMS.'
+  },
+  {
+    id: 52,
+    type: 'short-answer',
+    question: 'The two types of database techniques are Normalization and ______ Modeling.',
+    correctAnswer: 'ER',
+    explanation: 'The two techniques are Normalization and ER Modeling.'
+  },
+  {
+    id: 53,
+    type: 'multiple-choice',
+    question: 'Which of the following is part of Database Designing in DDLC?',
+    choices: ['Testing', 'Logical Model', 'System Definition', 'Data Conversion'],
+    correctAnswer: 'Logical Model',
+    explanation: 'Database Designing includes logical and physical models.'
+  },
+  {
+    id: 54,
+    type: 'short-answer',
+    question: 'The DB design model that does NOT concern itself with storage or location is the ______ Design.',
+    correctAnswer: 'Logical',
+    explanation: 'Logical design ignores physical storage details.'
+  },
+  {
+    id: 55,
+    type: 'multiple-choice',
+    question: 'Which step of Implementation checks whether the database meets specifications?',
+    choices: ['Requirement Analysis', 'Testing', 'Physical Model', 'System Definition'],
+    correctAnswer: 'Testing',
+    explanation: 'Testing validates whether the database fulfills requirement specifications.'
+  },
+  //////////////////////////////////////
+  //////////////////////////////////////
+{
+  id: 56,
+  type: 'short-answer',
+  question: 'Who proposed the theory of database normalization?',
+  correctAnswer: 'Edgar F. Codd',
+  explanation: 'Edgar F. Codd, the inventor of the relational model, proposed normalization.'
+},
+{
+  id: 57,
+  type: 'short-answer',
+  question: 'Who co-developed BCNF with Edgar F. Codd?',
+  correctAnswer: 'Raymond E. Boyce',
+  explanation: 'Raymond E. Boyce collaborated with Codd to develop BCNF.'
+},
+{
+  id: 58,
+  type: 'multiple-choice',
+  question: 'What is the main purpose of normalization in SQL?',
+  choices: ['To create redundancy', 'To eliminate redundancy', 'To remove primary keys', 'To make queries slower'],
+  correctAnswer: 'To eliminate redundancy',
+  explanation: 'Normalization reduces redundancy and ensures data is stored logically.'
+},
+{
+  id: 59,
+  type: 'short-answer',
+  question: 'Normalization is a database design technique that reduces _____.',
+  correctAnswer: 'redundancy',
+  explanation: 'Normalization reduces data redundancy and anomalies.'
+},
+{
+  id: 60,
+  type: 'multiple-choice',
+  question: 'Which of the following is NOT a purpose of normalization?',
+  choices: ['Eliminate redundant data', 'Ensure logical storage', 'Introduce anomalies', 'Reduce repetitive data'],
+  correctAnswer: 'Introduce anomalies',
+  explanation: 'Normalization prevents anomalies, not introduces them.'
+},
+{
+  id: 61,
+  type: 'multiple-choice',
+  question: 'Which of the following defines a SQL KEY?',
+  choices: [
+    'A random value stored in a table',
+    'A single column or combination of columns used to identify rows uniquely',
+    'A redundant attribute for grouping',
+    'A temporary placeholder'
+  ],
+  correctAnswer: 'A single column or combination of columns used to identify rows uniquely',
+  explanation: 'SQL keys uniquely identify rows or tuples in a table.'
+},
+{
+  id: 62,
+  type: 'short-answer',
+  question: 'SQL KEY helps establish ____ between multiple tables.',
+  correctAnswer: 'relationships',
+  explanation: 'Keys help link tables and enforce relationships.'
+},
+{
+  id: 63,
+  type: 'multiple-choice',
+  question: 'Which of the following is a property of a Primary Key?',
+  choices: ['Can be null', 'Must be unique', 'Should often change', 'Can have duplicates'],
+  correctAnswer: 'Must be unique',
+  explanation: 'Primary keys must be unique and not null.'
+},
+{
+  id: 64,
+  type: 'short-answer',
+  question: 'A primary key cannot be ____.',
+  correctAnswer: 'null',
+  explanation: 'Primary keys must always have a value.'
+},
+{
+  id: 65,
+  type: 'short-answer',
+  question: 'What is a Composite Key composed of?',
+  correctAnswer: 'Multiple columns',
+  explanation: 'Composite keys combine multiple attributes to uniquely identify a record.'
+},
+{
+  id: 66,
+  type: 'multiple-choice',
+  question: 'In the example of Robert Phil with different addresses, which key is required to uniquely identify him?',
+  choices: ['Primary Key', 'Composite Key', 'Foreign Key', 'Alternate Key'],
+  correctAnswer: 'Composite Key',
+  explanation: 'Both full name and address are required to uniquely identify the record.'
+},
+{
+  id: 67,
+  type: 'multiple-choice',
+  question: 'What is a Partial Composite Key?',
+  choices: [
+    'Part of a composite key that alone uniquely identifies a record',
+    'A key that is always null',
+    'A foreign key inside a composite',
+    'A non-key column used temporarily'
+  ],
+  correctAnswer: 'Part of a composite key that alone uniquely identifies a record',
+  explanation: 'A partial composite key occurs when part of a composite can uniquely identify records.'
+},
+{
+  id: 68,
+  type: 'short-answer',
+  question: 'What does 1NF stand for?',
+  correctAnswer: 'First Normal Form',
+  explanation: '1NF is the first step of normalization.'
+},
+{
+  id: 69,
+  type: 'multiple-choice',
+  question: 'Which of the following are rules of 1NF?',
+  choices: [
+    'Each cell has a single value, and each record is unique',
+    'Duplicate rows allowed, multiple values per cell',
+    'Primary key must always be composite',
+    'Tables must have at least 3 keys'
+  ],
+  correctAnswer: 'Each cell has a single value, and each record is unique',
+  explanation: '1NF requires atomic values and unique records.'
+},
+{
+  id: 70,
+  type: 'short-answer',
+  question: 'Which normal form eliminates partial dependency?',
+  correctAnswer: '2NF',
+  explanation: '2NF removes partial dependencies based on composite keys.'
+},
+{
+  id: 71,
+  type: 'multiple-choice',
+  question: 'Which rules define 2NF?',
+  choices: [
+    'Be in 1NF and have no partial dependencies',
+    'Be in 1NF and remove transitive dependencies',
+    'Be in 2NF and have only atomic keys',
+    'Be in 3NF and eliminate redundancy'
+  ],
+  correctAnswer: 'Be in 1NF and have no partial dependencies',
+  explanation: '2NF requires being in 1NF and removing partial dependencies.'
+},
+{
+  id: 72,
+  type: 'multiple-choice',
+  question: 'A Foreign Key references:',
+  choices: ['Another column in same table', 'Primary Key of another table', 'A duplicate key', 'Composite and partial keys only'],
+  correctAnswer: 'Primary Key of another table',
+  explanation: 'Foreign keys reference primary keys in other tables.'
+},
+{
+  id: 73,
+  type: 'short-answer',
+  question: 'Unlike a Primary Key, a Foreign Key ____ be null.',
+  correctAnswer: 'can',
+  explanation: 'Foreign keys may be null.'
+},
+{
+  id: 74,
+  type: 'multiple-choice',
+  question: 'Which problem is avoided using Foreign Keys?',
+  choices: ['Transitive dependencies', 'Referential integrity errors', 'Update anomalies', 'All of the above'],
+  correctAnswer: 'Referential integrity errors',
+  explanation: 'Foreign keys enforce referential integrity across tables.'
+},
+{
+  id: 75,
+  type: 'short-answer',
+  question: 'A transitive functional dependency occurs when a non-key column depends on another ____ column.',
+  correctAnswer: 'non-key',
+  explanation: 'Transitive dependencies exist when a non-key depends on another non-key.'
+},
+{
+  id: 76,
+  type: 'multiple-choice',
+  question: 'Which normal form removes transitive dependencies?',
+  choices: ['1NF', '2NF', '3NF', '4NF'],
+  correctAnswer: '3NF',
+  explanation: '3NF removes transitive dependencies.'
+},
+{
+  id: 77,
+  type: 'short-answer',
+  question: 'BCNF is also referred to as ____.',
+  correctAnswer: '3.5NF',
+  explanation: 'BCNF is sometimes called 3.5 normal form.'
+},
+{
+  id: 78,
+  type: 'multiple-choice',
+  question: 'Which condition differentiates BCNF from 3NF?',
+  choices: [
+    'It requires uniqueness of all foreign keys',
+    'It deals with tables having more than one candidate key',
+    'It eliminates atomic values',
+    'It removes null values'
+  ],
+  correctAnswer: 'It deals with tables having more than one candidate key',
+  explanation: 'BCNF is stricter than 3NF and handles anomalies with multiple candidate keys.'
+},
+{
+  id: 79,
+  type: 'short-answer',
+  question: 'What does 4NF eliminate?',
+  correctAnswer: 'Multivalued dependencies',
+  explanation: '4NF eliminates tables with two or more independent multivalued facts.'
+},
+{
+  id: 80,
+  type: 'multiple-choice',
+  question: 'Which rule defines 4NF?',
+  choices: [
+    'No table should have two or more independent multivalued data',
+    'Every table must have a composite key',
+    'All foreign keys must be null',
+    'Every attribute must be atomic'
+  ],
+  correctAnswer: 'No table should have two or more independent multivalued data',
+  explanation: '4NF ensures no independent multivalued dependencies exist.'
+},
+{
+  id: 81,
+  type: 'multiple-choice',
+  question: 'Which normal form is most common in enterprise databases?',
+  choices: ['1NF', '2NF', '3NF', '4NF'],
+  correctAnswer: '3NF',
+  explanation: 'Most systems normalize up to 3NF for efficiency.'
+},
+{
+  id: 82,
+  type: 'short-answer',
+  question: 'Normalization prevents update, insert, and ____ anomalies.',
+  correctAnswer: 'deletion',
+  explanation: 'Normalization prevents insertion, update, and deletion anomalies.'
+},
+{
+  id: 83,
+  type: 'multiple-choice',
+  question: 'Why is database designing critical?',
+  choices: [
+    'It ensures redundancy',
+    'It ensures logical, secure, and efficient DBMS implementation',
+    'It removes all primary keys',
+    'It eliminates relationships'
+  ],
+  correctAnswer: 'It ensures logical, secure, and efficient DBMS implementation',
+  explanation: 'Good design ensures cost-effective, secure, and reliable database systems.'
+},
+{
+  id: 84,
+  type: 'short-answer',
+  question: 'A primary key uniquely identifies a record and cannot be ____.',
+  correctAnswer: 'null',
+  explanation: 'Primary keys must always have a value and cannot be null.'
+},
+{
+  id: 85,
+  type: 'multiple-choice',
+  question: 'Which pair of keys help connect and uniquely identify records in relational databases?',
+  choices: ['Primary Key and Composite Key', 'Primary Key and Foreign Key', 'Composite Key and Alternate Key', 'Candidate Key and Super Key'],
+  correctAnswer: 'Primary Key and Foreign Key',
+  explanation: 'Primary keys uniquely identify records, and foreign keys connect related tables.'
+},
+//////////////////////////////////////
+///////////////////////////////////////
+  {
+    id: 86,
+    type: "short-answer",
+    question: "What does ER stand for in database design?",
+    correctAnswer: "Entity-Relationship",
+    explanation: "ER stands for Entity-Relationship, a model used to represent data and their relationships."
+  },
+  {
+    id: 87,
+    type: "multiple-choice",
+    question: "Which of the following best describes an Entity in ER modeling?",
+    choices: [
+      "A relationship between attributes",
+      "An object with independent existence in the database",
+      "A graphical representation of data",
+      "A type of normalization rule"
+    ],
+    correctAnswer: "An object with independent existence in the database",
+    explanation: "An Entity is an object or thing in the database that has an independent existence, such as Student or Course."
+  },
+  {
+    id: 88,
+    type: "short-answer",
+    question: "What is a collection of similar entities called?",
+    correctAnswer: "Entity Set",
+    explanation: "An Entity Set is a collection of similar entities of the same type."
+  },
+  {
+    id: 89,
+    type: "multiple-choice",
+    question: "Which of the following is NOT a type of attribute in ER modeling?",
+    choices: ["Simple", "Composite", "Derived", "Relational"],
+    correctAnswer: "Relational",
+    explanation: "The three types of attributes are Simple, Composite, and Derived."
+  },
+  {
+    id: 90,
+    type: "multiple-choice",
+    question: "In ER diagrams, what shape represents attributes?",
+    choices: ["Rectangle", "Diamond", "Ellipse", "Line"],
+    correctAnswer: "Ellipse",
+    explanation: "In ER diagrams, attributes are represented using ellipses."
+  },
+  {
+    id: 91,
+    type: "multiple-choice",
+    question: "Which cardinality describes a student enrolling in many courses, and a course being taken by many students?",
+    choices: ["One-to-One", "One-to-Many", "Many-to-Many", "Recursive"],
+    correctAnswer: "Many-to-Many",
+    explanation: "A student can enroll in multiple courses, and a course can have multiple students, making it a many-to-many relationship."
+  },
+  {
+    id: 92,
+    type: "short-answer",
+    question: "Which ER diagram shape is used to represent relationships?",
+    correctAnswer: "Diamond",
+    explanation: "Relationships are represented using diamonds in ER diagrams."
+  },
+  {
+    id: 93,
+    type: "multiple-choice",
+    question: "What does the Physical Design Model focus on?",
+    choices: [
+      "Conceptualizing data requirements",
+      "Storing data independently of hardware",
+      "Implementing the logical design using DBMS and hardware",
+      "Representing real-world objects only"
+    ],
+    correctAnswer: "Implementing the logical design using DBMS and hardware",
+    explanation: "The Physical Design Model translates logical design into physical storage using DBMS and hardware resources."
+  },
+  {
+    id: 94,
+    type: "multiple-choice",
+    question: "Which of the following is true about ER modeling?",
+    choices: [
+      "It is a low-level model focused only on storage details",
+      "It is a high-level model defining data elements and their relationships",
+      "It does not consider real-world entities",
+      "It is used only for UML object modeling"
+    ],
+    correctAnswer: "It is a high-level model defining data elements and their relationships",
+    explanation: "ER modeling is a high-level approach to represent data elements and their relationships."
+  },
+  {
+    id: 95,
+    type: "short-answer",
+    question: "Which enhanced modeling approach extends ER to handle complex databases?",
+    correctAnswer: "EER Model",
+    explanation: "The Enhanced Entity Relationship (EER) model extends ER modeling to support more complex database designs."
+  },
+  {
+    id: 96,
+    type: "multiple-choice",
+    question: "Which modeling notation does EER often use?",
+    choices: ["DFD", "UML", "ERD", "Flowchart"],
+    correctAnswer: "UML",
+    explanation: "Enhanced ER (EER) models often use UML notation, commonly used in object-oriented design."
+  },
+  {
+    id: 97,
+    type: "short-answer",
+    question: "What does UML stand for?",
+    correctAnswer: "Unified Modeling Language",
+    explanation: "UML stands for Unified Modeling Language, a general-purpose modeling language."
+  },
+  {
+    id: 98,
+    type: "multiple-choice",
+    question: "Why is ER modeling used in database design?",
+    choices: [
+      "It directly creates databases without planning",
+      "It helps bridge communication between designers, developers, and end-users",
+      "It replaces normalization rules",
+      "It eliminates the need for SQL queries"
+    ],
+    correctAnswer: "It helps bridge communication between designers, developers, and end-users",
+    explanation: "ER modeling provides a communication tool understood by both technical and non-technical stakeholders."
+  },
+  {
+    id: 99,
+    type: "short-answer",
+    question: "In ER diagrams, what shape represents entities?",
+    correctAnswer: "Rectangle",
+    explanation: "Entities are represented as rectangles in ER diagrams."
+  },
+  {
+    id: 100,
+    type: "short-answer",
+    question: "What does cardinality describe in ER modeling?",
+    correctAnswer: "Number of entities in a relationship",
+    explanation: "Cardinality defines how many entities participate in a relationship (e.g., one-to-one, one-to-many)."
+  },
+  {
+    id: 101,
+    type: "multiple-choice",
+    question: "Which of the following is a valid cardinality type?",
+    choices: ["Recursive", "One-to-One", "Self-to-Entity", "Group-to-Group"],
+    correctAnswer: "One-to-One",
+    explanation: "Valid cardinality types include One-to-One, One-to-Many, and Many-to-Many."
+  },
+  {
+    id: 102,
+    type: "multiple-choice",
+    question: "Which of the following is NOT a benefit of using ER diagrams?",
+    choices: [
+      "Improve communication between stakeholders",
+      "Easily translated into relational tables",
+      "Serve as a non-technical tool",
+      "Eliminate the need for normalization"
+    ],
+    correctAnswer: "Eliminate the need for normalization",
+    explanation: "ER diagrams aid communication and design but do not replace normalization."
+  },
+  {
+    id: 103,
+    type: "short-answer",
+    question: "Which enhanced ER feature allows support for more detailed designs?",
+    correctAnswer: "EER Model",
+    explanation: "The Enhanced ER (EER) model supports complex and detailed database designs."
+  },
+  {
+    id: 104,
+    type: "short-answer",
+    question: "What does an ER diagram show?",
+    correctAnswer: "Entities, attributes, and relationships",
+    explanation: "ER diagrams graphically represent entities, attributes, and relationships."
+  },
+  {
+    id: 105,
+    type: "multiple-choice",
+    question: "Which of the following is a type of attribute in ER modeling?",
+    choices: ["Composite", "Relational", "Transitive", "Secondary"],
+    correctAnswer: "Composite",
+    explanation: "Attributes can be simple, composite, or derived."
+  },
+  /////////////////////////////////////
+  ////////////////////////////////////
+  ////////////////////////////////////
+  {
+    id: 106, 
+    type: "code-answer", 
+    question: "Give 8 numeric data types in SQL separated by commas", 
+    correctAnswer: "INT, SMALLINT, TINYINT, BIGINT, DECIMAL, FLOAT, DOUBLE, BIT", 
+    explanation: "Numeric types in SQL represent numbers, either integers or floating-point values."
+  },
+  {
+    id: 107, 
+    type: "code-answer", 
+    question: "Give 5 date and time data types in SQL separated by commas", 
+    correctAnswer: "DATE, TIME, DATETIME, TIMESTAMP, YEAR", 
+    explanation: "Date and time types are used to store calendar dates and time values."
+  },
+  {
+    id: 108, 
+    type: "code-answer", 
+    question: "Give 5 string data types in SQL separated by commas", 
+    correctAnswer: "CHAR, VARCHAR, TEXT, BLOB, ENUM", 
+    explanation: "String types store text, binary, or predefined set values."
+  },
+  {
+    id: 109, 
+    type: "code-answer", 
+    question: "Give 2 other data types in SQL separated by commas", 
+    correctAnswer: "JSON, XML", 
+    explanation: "Other SQL data types support structured data storage formats like JSON and XML."
+  },
+  {
+    id: 110, 
+    type: "code-answer", 
+    question: "Give 3 spatial data types in SQL separated by commas", 
+    correctAnswer: "POINT, GEOMETRY, POLYGON", 
+    explanation: "Spatial types are used to store geographical and geometrical data."
+  },
+  ////////////////////////////
+  ///////////////////////
+  /////////////////////////
+  {
+  id: 111,
+  type: 'multiple-choice',
+  question: 'Which SQL statement is used to create a new database?',
+  choices: ['MAKE DATABASE', 'NEW DATABASE', 'CREATE DATABASE', 'ADD DATABASE'],
+  correctAnswer: 'CREATE DATABASE',
+  explanation: 'CREATE DATABASE is used to create a new database.'
+},
+{
+  id: 112,
+  type: 'short-answer',
+  question: 'Write the SQL keyword used to remove an entire database.',
+  correctAnswer: 'DROP DATABASE',
+  explanation: 'DROP DATABASE deletes an existing database.'
+},
+{
+  id: 113,
+  type: 'multiple-choice',
+  question: 'Which SQL command is used to create a new table?',
+  choices: ['ADD TABLE', 'CREATE TABLE', 'MAKE TABLE', 'INSERT TABLE'],
+  correctAnswer: 'CREATE TABLE',
+  explanation: 'CREATE TABLE is the correct SQL command.'
+},
+{
+  id: 114,
+  type: 'short-answer',
+  question: 'What SQL command is used to delete an entire table structure permanently?',
+  correctAnswer: 'DROP TABLE',
+  explanation: 'DROP TABLE removes the table and its structure completely.'
+},
+{
+  id: 115,
+  type: 'multiple-choice',
+  question: 'Which SQL statement is used to remove all records from a table but keep its structure?',
+  choices: ['REMOVE', 'DELETE', 'DROP', 'TRUNCATE'],
+  correctAnswer: 'TRUNCATE',
+  explanation: 'TRUNCATE removes all rows but retains the table structure.'
+},
+{
+  id: 116,
+  type: 'multiple-choice',
+  question: 'Which SQL command is used to add new rows into a table?',
+  choices: ['INSERT INTO', 'ADD INTO', 'UPDATE', 'APPEND'],
+  correctAnswer: 'INSERT INTO',
+  explanation: 'INSERT INTO adds new records into a table.'
+},
+{
+  id: 117,
+  type: 'short-answer',
+  question: 'Which SQL statement is used to modify existing records in a table?',
+  correctAnswer: 'UPDATE',
+  explanation: 'UPDATE modifies existing records.'
+},
+{
+  id: 118,
+  type: 'multiple-choice',
+  question: 'Which SQL clause is used to filter records returned by a SELECT query?',
+  choices: ['ORDER BY', 'WHERE', 'HAVING', 'GROUP BY'],
+  correctAnswer: 'WHERE',
+  explanation: 'WHERE filters records in SQL queries.'
+},
+{
+  id: 119,
+  type: 'short-answer',
+  question: 'What SQL keyword is used to sort query results?',
+  correctAnswer: 'ORDER BY',
+  explanation: 'ORDER BY sorts records in ascending or descending order.'
+},
+{
+  id: 120,
+  type: 'multiple-choice',
+  question: 'Which SQL statement is used to retrieve data from a database?',
+  choices: ['GET', 'FETCH', 'SELECT', 'RETRIEVE'],
+  correctAnswer: 'SELECT',
+  explanation: 'SELECT is used to retrieve data from a database.'
+},
+{
+  id: 121,
+  type: 'short-answer',
+  question: 'Which SQL keyword is used to remove specific rows from a table?',
+  correctAnswer: 'DELETE',
+  explanation: 'DELETE removes specific rows based on conditions.'
+},
+{
+  id: 122,
+  type: 'multiple-choice',
+  question: 'Which SQL command changes the structure of an existing table?',
+  choices: ['ALTER TABLE', 'MODIFY TABLE', 'CHANGE TABLE', 'EDIT TABLE'],
+  correctAnswer: 'ALTER TABLE',
+  explanation: 'ALTER TABLE changes the structure of an existing table.'
+},
+{
+  id: 123,
+  type: 'short-answer',
+  question: 'Write the SQL keyword used to add a new column into a table.',
+  correctAnswer: 'ALTER TABLE',
+  explanation: 'ALTER TABLE with ADD COLUMN is used to add a column.'
+},
+{
+  id: 124,
+  type: 'multiple-choice',
+  question: 'Which SQL clause is used to group rows sharing a property?',
+  choices: ['GROUP BY', 'ORDER BY', 'WHERE', 'JOIN'],
+  correctAnswer: 'GROUP BY',
+  explanation: 'GROUP BY groups rows that have the same values.'
+},
+{
+  id: 125,
+  type: 'short-answer',
+  question: 'What SQL keyword is used to filter groups of data after aggregation?',
+  correctAnswer: 'HAVING',
+  explanation: 'HAVING is used after GROUP BY to filter groups.'
+},
+{
+  id: 126,
+  type: 'multiple-choice',
+  question: 'Which SQL keyword is used to combine rows from two or more tables?',
+  choices: ['UNION', 'JOIN', 'CONNECT', 'MERGE'],
+  correctAnswer: 'JOIN',
+  explanation: 'JOIN combines rows from two or more tables.'
+},
+{
+  id: 127,
+  type: 'short-answer',
+  question: 'Which SQL keyword is used to combine results of two SELECT statements?',
+  correctAnswer: 'UNION',
+  explanation: 'UNION combines the result sets of two or more SELECT statements.'
+},
+{
+  id: 128,
+  type: 'multiple-choice',
+  question: 'Which SQL clause is used to limit the number of returned rows?',
+  choices: ['LIMIT', 'WHERE', 'TOP', 'RANGE'],
+  correctAnswer: 'LIMIT',
+  explanation: 'LIMIT restricts the number of rows returned in a query.'
+},
+{
+  id: 129,
+  type: 'short-answer',
+  question: 'What keyword is used in SQL Server to return only a specific number of rows?',
+  correctAnswer: 'TOP',
+  explanation: 'TOP is used in SQL Server to limit rows.'
+},
+{
+  id: 130,
+  type: 'multiple-choice',
+  question: 'Which SQL aggregate function is used to count rows?',
+  choices: ['COUNT()', 'SUM()', 'AVG()', 'TOTAL()'],
+  correctAnswer: 'COUNT()',
+  explanation: 'COUNT() returns the number of rows in a result set.'
+},
+{
+  id: 131,
+  type: 'short-answer',
+  question: 'What SQL aggregate function is used to calculate the average?',
+  correctAnswer: 'AVG()',
+  explanation: 'AVG() calculates the average value of a numeric column.'
+},
+{
+  id: 132,
+  type: 'multiple-choice',
+  question: 'Which SQL keyword is used to rename a column or table temporarily?',
+  choices: ['AS', 'RENAME', 'ALIAS', 'CHANGE'],
+  correctAnswer: 'AS',
+  explanation: 'AS is used to create an alias in SQL queries.'
+},
+{
+  id: 133,
+  type: 'short-answer',
+  question: 'Write the SQL command used to delete a column from a table.',
+  correctAnswer: 'ALTER TABLE DROP COLUMN',
+  explanation: 'ALTER TABLE DROP COLUMN removes a column from a table.'
+},
+{
+  id: 134,
+  type: 'multiple-choice',
+  question: 'Which SQL constraint ensures that a column cannot have NULL values?',
+  choices: ['UNIQUE', 'NOT NULL', 'CHECK', 'DEFAULT'],
+  correctAnswer: 'NOT NULL',
+  explanation: 'NOT NULL constraint ensures a column must always have a value.'
+},
+{
+  id: 135,
+  type: 'short-answer',
+  question: 'Which SQL constraint is used to uniquely identify each row in a table?',
+  correctAnswer: 'PRIMARY KEY',
+  explanation: 'PRIMARY KEY uniquely identifies each record in a table.'
+}
+
+
+
+
+  ]}
 ];
   
   // ,

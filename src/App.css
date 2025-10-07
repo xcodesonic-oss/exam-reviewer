@@ -655,3 +655,99 @@ body {
     display: none;
   }
 }
+
+
+/* Code Answer Specific Styles */
+.code-textarea {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  background: #f8fafc;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  resize: vertical;
+  transition: all 0.3s ease;
+  tab-size: 2;
+}
+
+.code-textarea:focus {
+  outline: none;
+  border-color: #4f46e5;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.code-textarea.input-correct {
+  border-color: #10b981 !important;
+  background: #f0fdf4 !important;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1) !important;
+}
+
+.code-textarea.input-incorrect {
+  border-color: #ef4444 !important;
+  background: #fef2f2 !important;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1) !important;
+}
+
+.correct-answer-section {
+  margin: 15px 0;
+}
+
+.correct-answer-section p {
+  margin-bottom: 8px;
+  color: #374151;
+  font-weight: 600;
+}
+
+.user-answer-code,
+.correct-answer-code {
+  background: #1f2937;
+  color: #f3f4f6;
+  padding: 16px;
+  border-radius: 8px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 8px 0;
+  border-left: 4px solid #4f46e5;
+}
+
+.correct-answer-code {
+  border-left-color: #10b981;
+  background: #064e3b;
+}
+
+.user-answer-code {
+  border-left-color: #6b7280;
+}
+
+/* Responsive adjustments for code blocks */
+@media (max-width: 768px) {
+  .code-textarea {
+    font-size: 0.9rem;
+    padding: 14px;
+  }
+
+  .user-answer-code,
+  .correct-answer-code {
+    padding: 12px;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .code-textarea {
+    font-size: 0.85rem;
+    padding: 12px;
+  }
+
+  .user-answer-code,
+  .correct-answer-code {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+}

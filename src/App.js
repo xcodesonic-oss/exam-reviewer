@@ -120,6 +120,14 @@ function App() {
             userAnswer={userAnswers[currentQuestion]}
           />
         );
+      case 'code-answer':
+        return (
+          <CodeAnswer
+            question={question}
+            onSubmit={handleAnswerSubmit}
+            userAnswer={userAnswers[currentQuestion]}
+          />
+        );
       default:
         return null;
     }

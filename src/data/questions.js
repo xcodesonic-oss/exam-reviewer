@@ -3157,7 +3157,37 @@ export const questionSets = [
   question: 'Which SQL constraint is used to uniquely identify each row in a table?',
   correctAnswer: 'PRIMARY KEY',
   explanation: 'PRIMARY KEY uniquely identifies each record in a table.'
-}
+},
+{
+    id: 136, 
+    type: "code-answer", 
+    question: "Write a MySQL query to create a database named SchoolDB.", 
+    correctAnswer: "CREATE DATABASE SchoolDB;", 
+    explanation: "The CREATE DATABASE statement is used in MySQL to create a new database."
+  },
+  {
+    id: 137, 
+    type: "code-answer", 
+    question: "Write a MySQL query to create a table named Students with columns: id (INT, Primary Key, Auto Increment), name (VARCHAR(50)), and age (INT).", 
+    correctAnswer: "CREATE TABLE Students (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50), age INT);", 
+    explanation: "The CREATE TABLE statement defines a new table with specified columns and data types. AUTO_INCREMENT ensures unique IDs for each record."
+  },
+  {
+    id: 138, 
+    type: "code-answer", 
+    question: "Write a MySQL query to insert a student named 'Alice' aged 20 into the Students table.", 
+    correctAnswer: "INSERT INTO Students (name, age) VALUES ('Alice', 20);", 
+    explanation: "The INSERT INTO statement adds a new row into the Students table with specified values."
+  },
+  {
+    id: 139, 
+    type: "code-answer", 
+    question: "Write a MySQL query to insert three students at once: 'Bob' (22), 'Charlie' (21), and 'Diana' (19).", 
+    correctAnswer: "INSERT INTO Students (name, age) VALUES ('Bob', 22), ('Charlie', 21), ('Diana', 19);", 
+    explanation: "Multiple rows can be inserted in one query by separating each value set with commas inside the VALUES clause."
+  }
+
+
 
 
 

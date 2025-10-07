@@ -1338,7 +1338,7 @@ export const questionSets = [
         id: 64,
         type: "short-answer",
         question: "The CIA triad focuses on ______, ______, and integrity; while digital signatures provide ______.",
-        correctAnswe: "Confidentiality / Integrity / Non-repudiation",
+        correctAnswer: "Confidentiality / Integrity / Non-repudiation",
         explanation: "Confidentiality, integrity, and non-repudiation are key principles."
       },
       {

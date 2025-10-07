@@ -22,6 +22,7 @@ import MultipleChoice from './components/MultipleChoice';
 import ImageQuestion from './components/ImageQuestion';
 import ShortAnswer from './components/ShortAnswer';
 import Results from './components/Results';
+import CodeAnswer from './components/CodeAnswer';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

@@ -3186,13 +3186,528 @@ export const questionSets = [
     correctAnswer: "INSERT INTO Students (name, age) VALUES ('Bob', 22), ('Charlie', 21), ('Diana', 19);", 
     explanation: "Multiple rows can be inserted in one query by separating each value set with commas inside the VALUES clause."
   }
+  ]
+},
+{
+  id: 'ReactJS',
+    subject: 'Sir Macua',
+    description: 'Test your props skills',
+    icon: '🧮',
+    questions: [
+      {
+  id: 1,
+  type: 'multiple-choice',
+  question: 'After creating a new React application, which command is used to start it?',
+  choices: ['react start', 'start-app', 'node start', 'npm start'],
+  correctAnswer: 'npm start',
+  explanation: '`npm start` runs the development server that launches your React app in the browser.'
+},
+,
+{
+  id: 2,
+  type: 'multiple-choice',
+  question: 'What type of applications is React commonly used to build?',
+  choices: ['Mobile applications only', 'Desktop applications only', 'Single-page applications', 'Operating systems'],
+  correctAnswer: 'Single-page applications',
+  explanation: 'React is mainly used to build single-page applications where the UI updates dynamically without reloading the entire page.'
+},
+{
+  id: 3,
+  type: 'multiple-choice',
+  question: 'What is the significance of the createRoot() function in React?',
+  choices: ['It creates a new component', 'It defines where React components will be rendered in the DOM', 'It initializes state management', 'It handles routing'],
+  correctAnswer: 'It defines where React components will be rendered in the DOM',
+  explanation: '`createRoot()` is used to create a root for rendering React components inside a specific DOM element, replacing the old `ReactDOM.render()` method.'
+},
+{
+  id: 4,
+  type: 'multiple-choice',
+  question: 'When using map() for rendering lists, what is a best practice?',
+  choices: ['Always sort the items first', 'Limit the list to 10 items', 'Provide a unique key prop for each item', 'Use indexes as keys always'],
+  correctAnswer: 'Provide a unique key prop for each item',
+  explanation: 'Providing a unique key for each list item helps React efficiently track and update individual elements during re-rendering.'
+},
+{
+  id: 5,
+  type: 'multiple-choice',
+  question: 'What is ReactJS primarily used for?',
+  choices: ['Server-side programming', 'Database management', 'Building user interfaces', 'Operating system development'],
+  correctAnswer: 'Building user interfaces',
+  explanation: 'ReactJS is a JavaScript library designed for building fast, reusable, and interactive user interfaces.'
+},
+{
+  id: 6,
+  type: 'multiple-choice',
+  question: 'Who created ReactJS?',
+  choices: ['Google', 'Facebook', 'Microsoft', 'Amazon'],
+  correctAnswer: 'Facebook',
+  explanation: 'ReactJS was developed by Facebook to improve the efficiency of building dynamic and data-driven web interfaces.'
+},
+{
+  id: 7,
+  type: 'multiple-choice',
+  question: 'What is the key feature of React’s DOM manipulation approach?',
+  choices: [
+    'It directly manipulates the browser’s DOM',
+    'It creates a virtual DOM in memory',
+    'It bypasses DOM manipulation entirely',
+    'It uses multiple DOMs simultaneously'
+  ],
+  correctAnswer: 'It creates a virtual DOM in memory',
+  explanation: 'React uses a virtual DOM to efficiently update and render only the parts of the UI that change, improving performance.'
+},
+{
+  id: 8,
+  type: 'multiple-choice',
+  question: 'What is required to use React in production?',
+  choices: [
+    'Only a web browser',
+    'Python and pip',
+    'npm and Node.js',
+    'Java Development Kit'
+  ],
+  correctAnswer: 'npm and Node.js',
+  explanation: 'React projects rely on Node.js and npm for managing packages and running development or production builds.'
+},
+{
+  id: 9,
+  type: 'multiple-choice',
+  question: 'What command is used to create a new React application?',
+  choices: [
+    'npm start-react',
+    'react create-new',
+    'npx create-react-app',
+    'node create-react'
+  ],
+  correctAnswer: 'npx create-react-app',
+  explanation: '`npx create-react-app` initializes a new React project with all the required dependencies and structure.'
+},
+{
+  id: 10,
+  type: 'multiple-choice',
+  question: 'What is the recommended action before creating a new React application if you’ve previously installed create-react-app globally?',
+  choices: [
+    'Update Node.js',
+    'Uninstall create-react-app globally',
+    'Clear browser cache',
+    'Reset npm configurations'
+  ],
+  correctAnswer: 'Uninstall create-react-app globally',
+  explanation: 'It’s recommended to uninstall global installations of create-react-app to avoid conflicts with newer versions handled by npx.'
+},
+{
+  id: 11,
+  type: 'multiple-choice',
+  question: 'What is DOM in the context of React?',
+  choices: [
+    'Digital Object Management',
+    'Document Object Model',
+    'Data Object Manipulation',
+    'Directory Object Manager'
+  ],
+  correctAnswer: 'Document Object Model',
+  explanation: 'DOM stands for Document Object Model, representing the structure of a web page that React interacts with via its virtual DOM.'
+},
+{
+  id: 12,
+  type: 'multiple-choice',
+  question: 'What is the primary difference between “var” and “const” declarations regarding scope in JavaScript?',
+  choices: [
+    'var has block scope while const has function scope',
+    'Both have identical scope rules',
+    'const has block scope while var has function scope',
+    'Neither has block scope'
+  ],
+  correctAnswer: 'const has block scope while var has function scope',
+  explanation: 'In JavaScript, `var` is function-scoped, while `const` and `let` are block-scoped, limiting their accessibility to the block they are declared in.'
+},
+{
+  id: 13,
+  type: 'multiple-choice',
+  question: 'When using the map() method in React, what is its primary functionality?',
+  choices: [
+    'It only sorts arrays in ascending order',
+    'It creates a copy of the original array without modifications',
+    'It executes a function on each array element and returns a new array',
+    'It only filters out unwanted elements'
+  ],
+  correctAnswer: 'It executes a function on each array element and returns a new array',
+  explanation: '`map()` iterates through an array, applies a function to each element, and returns a new transformed array — commonly used for rendering lists in React.'
+},
+{
+  id: 14,
+  type: 'multiple-choice',
+  question: 'In React JSX, why is the className attribute used instead of class?',
+  choices: [
+    'It’s just a styling preference',
+    'It provides additional functionality',
+    'class is a reserved keyword in JavaScript',
+    'It’s required for CSS modules'
+  ],
+  correctAnswer: 'class is a reserved keyword in JavaScript',
+  explanation: 'In JSX, `className` is used instead of `class` because “class” is a reserved keyword in JavaScript for defining classes.'
+},
+{
+  id: 15,
+  type: 'multiple-choice',
+  question: 'When working with const and objects in React, which statement is true?',
+  choices: [
+    'The entire object becomes completely immutable',
+    'The object reference can’t be reassigned, but properties can be modified',
+    'Properties can only be read, not modified',
+    'The object must remain empty'
+  ],
+  correctAnswer: 'The object reference can’t be reassigned, but properties can be modified',
+  explanation: 'Declaring an object with `const` prevents reassignment of the variable reference, but the contents of the object remain mutable.'
+},
+{
+  id: 16,
+  type: 'multiple-choice',
+  question: 'How must HTML code be structured in JSX?',
+  choices: [
+    'It can have multiple root elements',
+    'It requires exactly two parent elements',
+    'It must have one root element or fragment',
+    'It can only use div elements'
+  ],
+  correctAnswer: 'It must have one root element or fragment',
+  explanation: 'JSX expressions must return a single root element or a fragment to ensure valid component structure.'
+},
+{
+  id: 17,
+  type: 'multiple-choice',
+  question: 'What is the correct syntax for including JavaScript expressions in JSX?',
+  choices: ['Using [[expression]]', 'Using {expression}', 'Using (expression)', 'Using <expression>'],
+  correctAnswer: 'Using {expression}',
+  explanation: 'In JSX, JavaScript expressions are embedded within curly braces `{}` to dynamically render values or logic inside components.'
+},
+{
+  id: 18,
+  type: 'multiple-choice',
+  question: 'What happens to empty elements in JSX?',
+  choices: [
+    'They are automatically removed',
+    'They must be self-closing with />',
+    'They can be left open',
+    'They require special attributes'
+  ],
+  correctAnswer: 'They must be self-closing with />',
+  explanation: 'In JSX, elements without children must be self-closing, for example `<img />` or `<input />`.'
+},
+{
+  id: 19,
+  type: 'multiple-choice',
+  question: 'How should conditional rendering be handled in JSX?',
+  choices: [
+    'Using switch statements only',
+    'Using while loops',
+    'Using if statements outside JSX or ternary operators',
+    'Using direct if statements inside JSX'
+  ],
+  correctAnswer: 'Using if statements outside JSX or ternary operators',
+  explanation: 'JSX doesn’t support plain `if` statements directly, so conditional rendering is typically done using ternary operators or logical AND expressions.'
+},
+{
+  id: 20,
+  type: 'multiple-choice',
+  question: 'How does array modification work with const in React?',
+  choices: [
+    'Arrays cannot be modified at all',
+    'Only array length can be changed',
+    'Array elements can be modified but not reassigned',
+    'Arrays must be converted to let first'
+  ],
+  correctAnswer: 'Array elements can be modified but not reassigned',
+  explanation: 'Declaring an array with `const` means the reference can’t be reassigned, but its contents (like individual elements) can still be modified.'
+},
+{
+  id: 21,
+  type: 'multiple-choice',
+  question: 'What is JSX in React development?',
+  choices: [
+    'A database query language',
+    'A testing framework',
+    'A syntax extension allowing HTML in JavaScript',
+    'A state management system'
+  ],
+  correctAnswer: 'A syntax extension allowing HTML in JavaScript',
+  explanation: 'JSX is a syntax extension that allows developers to write HTML-like code within JavaScript, making UI structures easier to define and read.'
+},
+{
+  id: 22,
+  type: 'multiple-choice',
+  question: 'How does the render method work in React?',
+  choices: [
+    'It only handles CSS rendering',
+    'It defines which components to display in the DOM',
+    'It’s used for data fetching',
+    'It only manages state updates'
+  ],
+  correctAnswer: 'It defines which components to display in the DOM',
+  explanation: 'The render method specifies what UI elements should appear on the screen by returning React elements to be displayed in the DOM.'
+},
+{
+  id: 23,
+  type: 'multiple-choice',
+  question: 'What is the correct way to write multi-line HTML in JSX?',
+  choices: [
+    'Using semicolons between lines',
+    'Wrapping it in parentheses',
+    'Using line continuation characters',
+    'Adding commas between elements'
+  ],
+  correctAnswer: 'Wrapping it in parentheses',
+  explanation: 'Multi-line JSX should be wrapped in parentheses for readability and to prevent automatic semicolon insertion errors.'
+},
+{
+  id: 24,
+  type: 'multiple-choice',
+  question: 'How does variable scoping work with let in React?',
+  choices: [
+    'It has block scope',
+    'It has function scope only',
+    'It has no scope restrictions',
+    'It has global scope only'
+  ],
+  correctAnswer: 'It has block scope',
+  explanation: '`let` provides block-level scoping, meaning variables declared with it are accessible only within the block they’re defined in.'
+},
+{
+  id: 25,
+  type: 'multiple-choice',
+  question: 'What is the relationship between JSX and JavaScript?',
+  choices: [
+    'They are completely separate languages',
+    'JSX compiles to regular JavaScript',
+    'JSX only works with TypeScript',
+    'They cannot be used together'
+  ],
+  correctAnswer: 'JSX compiles to regular JavaScript',
+  explanation: 'JSX is not a separate language — it compiles into standard JavaScript function calls using React’s createElement method.'
+},
+{
+  id: 26,
+  type: 'multiple-choice',
+  question: 'How should large blocks of conditional content be handled in React?',
+  choices: [
+    'Always using switch statements',
+    'Using multiple render methods',
+    'Using logical operators or separate components',
+    'Only using inline ternary operators'
+  ],
+  correctAnswer: 'Using logical operators or separate components',
+  explanation: 'For readability and maintainability, large conditional UI blocks are best handled using logical operators or separate components rather than inline conditions.'
+},
+{
+  id: 27,
+  type: 'multiple-choice',
+  question: 'What is the primary purpose of ES6 destructuring in React?',
+  choices: [
+    'To create new objects',
+    'To combine multiple arrays',
+    'To extract values from objects and arrays efficiently',
+    'To modify object properties'
+  ],
+  correctAnswer: 'To extract values from objects and arrays efficiently',
+  explanation: 'Destructuring allows concise extraction of values from arrays or properties from objects, improving code readability in React.'
+},
+{
+  id: 28,
+  type: 'multiple-choice',
+  question: 'How does the root node concept work in React applications?',
+  choices: [
+    'Multiple root nodes are required',
+    'The root node serves as the main container for React-managed content',
+    'Root nodes cannot be customized',
+    'Root nodes must be created dynamically'
+  ],
+  correctAnswer: 'The root node serves as the main container for React-managed content',
+  explanation: 'React renders its virtual DOM into a single root DOM node (commonly <div id="root">), which acts as the container for all components.'
+},
+{
+  id: 29,
+  type: 'multiple-choice',
+  question: '_______ are independent and reusable bits of code. They serve the same purpose as JavaScript functions but work in isolation and return HTML.',
+  choices: [
+    'React Functions',
+    'React Components',
+    'React Usable Codes',
+    'React JSX'
+  ],
+  correctAnswer: 'React Components',
+  explanation: 'React Components are reusable UI building blocks that return JSX to render UI elements.'
+},
+{
+  id: 30,
+  type: 'multiple-choice',
+  question: '_______ are like arguments, and you send them into the component as attributes.',
+  choices: [
+    'React Functions',
+    'React Components',
+    'Properties',
+    'State'
+  ],
+  correctAnswer: 'Properties',
+  explanation: 'Props (properties) are used to pass data from a parent component to a child component, similar to function arguments.'
+},
+///////////////////////////////////31
+{
+        id: 31,
+        type: 'short-answer',
+        question: 'This type of function will be called when the component gets initiated.',
+        correctAnswer: 'constructor()',
+        explanation: ''
+      },
 
+{
+  id: 32,
+  type: 'image-answer',
+  question: 'What type of component is this?',
+  imageUrl: require('../assets/images/1.png'),
+  correctAnswer: 'Function Component',
+  explanation: ''
+},
+{
+  id: 33,
+  type: 'image-answer',
+  question: 'What type of component is this?',
+  imageUrl: require('../assets/images/2.png'),
+  correctAnswer: 'Class Component',
+  explanation: ''
+},
+{
+  id: 34,
+  type: 'image-answer',
+  question: 'Give the result (Careful for spaces)',
+  imageUrl: require('../assets/images/3.png'),
+  correctAnswer: 'I am a red Car!',
+  explanation: ''
+},
+{
+  id: 35,
+  type: 'image-answer',
+  question: 'Give the result (Put * for bullet)',
+  imageUrl: require('../assets/images/4.png'),
+  correctAnswer: 'Who lives in my Garage? I am a Car',
+  explanation: ''
+},
+{
+  id: 36,
+  type: 'image-answer',
+  question: 'Give the result (Put * for bullet)',
+  imageUrl: require('../assets/images/5.png'),
+  correctAnswer: 'Who lives in my Garage? I am a Mustang!',
+  explanation: ''
+},
+{
+  id: 37,
+  type: 'image-answer',
+  question: 'Give the result (Put * for bullet)',
+  imageUrl: require('../assets/images/6.png'),
+  correctAnswer: 'Hello I am Yamaha',
+  explanation: ''
+},
+{
+  id: 38,
+  type: 'image-answer',
+  question: 'Give the result (Put * for bullet)',
+  imageUrl: require('../assets/images/7.png'),
+  correctAnswer: '*name : John Doe *age : 25 *email : john@example.com *country : Philippines *profession : IT',
+  explanation: ''
+},
+{
+  id: 39,
+  type: 'image-answer',
+  question: 'Give the result (Put * for bullet)',
+  imageUrl: require('../assets/images/8.png'),
+  correctAnswer: 'My car is a Ford Mustang!',
+  explanation: ''
+},
+{
+  id: 40,
+  type: 'image-answer',
+  question: 'Give the result (Put * for bullet)',
+  imageUrl: require('../assets/images/9.png'),
+  correctAnswer: '*red *Yamaha *Aerox *1998',
+  explanation: ''
+},
+{
+  id: 41,
+  type: 'image-answer',
+  question: 'Give the result (Put * for bullet)',
+  imageUrl: require('../assets/images/10.png'),
+  correctAnswer: '*color *brand *model *year',
+  explanation: ''
+},
+{
+  id: 42,
+  type: 'image-answer',
+  question: 'Give the result (Put * for bullet)',
+  imageUrl: require('../assets/images/11.png'),
+  correctAnswer: '46',
+  explanation: ''
+},
+{
+  id: 43,
+  type: 'image-answer',
+  question: 'Give the result (Put * for bullet)',
+  imageUrl: require('../assets/images/12.png'),
+  correctAnswer: '3040',
+  explanation: ''
+},
+{
+  id: 44,
+  type: 'image-answer',
+  question: 'Give the result (Put * for bullet)',
+  imageUrl: require('../assets/images/13.png'),
+  correctAnswer: '90',
+  explanation: ''
+},
+{
+  id: 45,
+  type: 'image-answer',
+  question: 'Give the result (Put * for bullet)',
+  imageUrl: require('../assets/images/14.png'),
+  correctAnswer: 'No Display',
+  explanation: ''
+},
+{
+  id: 46,
+  type: 'image-answer',
+  question: 'Give the result (Put * for bullet)',
+  imageUrl: require('../assets/images/15.png'),
+  correctAnswer: 'No Display',
+  explanation: ''
+},
+{
+  id: 47,
+  type: 'multiple-choice',
+  question: 'Where is the main application file located in a React project?',
+  choices: [
+    'In the public folder as index.html',
+    'In the src folder as App.js',
+    'In the node_modules folder as main.js',
+    'In the root folder as package.json'
+  ],
+  correctAnswer: 'In the src folder as App.js',
+  explanation: 'In a React project, the main component file is usually App.js, located inside the src folder. This file defines the core structure of the app and is rendered by index.js into the root HTML element.'
+},
+{
+  id: 48,
+  type: 'multiple-choice',
+  question: 'What is the purpose of React Fragments?',
+  choices: [
+    'To create a new component class',
+    'To group elements without adding extra nodes to the DOM',
+    'To manage state between multiple components',
+    'To apply CSS styles to elements'
+  ],
+  correctAnswer: 'To group elements without adding extra nodes to the DOM',
+  explanation: 'React Fragments let you group multiple child elements without adding an extra wrapper element (like a <div>) to the DOM, helping keep the DOM clean and lightweight.'
+}
 
-
-
-
-
-  ]}
+    ]
+}
 ];
   
   // ,

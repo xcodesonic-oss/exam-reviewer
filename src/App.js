@@ -105,14 +105,15 @@ function App() {
             userAnswer={userAnswers[currentQuestion]}
           />
         );
-      case 'image':
-        return (
-          <ImageQuestion
-            question={question}
-            onSubmit={handleAnswerSubmit}
-            userAnswer={userAnswers[currentQuestion]}
-          />
-        );
+      case 'image-answer':
+  return (
+    <ImageQuestion
+      question={question}
+      onSubmit={handleAnswerSubmit}
+      userAnswer={userAnswers[currentQuestion]}
+    />
+  );
+
       case 'short-answer':
         return (
           <ShortAnswer

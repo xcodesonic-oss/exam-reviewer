@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/exam-reviewer/static/css/main.87e28da4.css",
-    "main.js": "/exam-reviewer/static/js/main.5f1a2489.js",
+    "main.js": "/exam-reviewer/static/js/main.436e6554.js",
     "static/js/453.2a684bb4.chunk.js": "/exam-reviewer/static/js/453.2a684bb4.chunk.js",
     "static/media/11.png": "/exam-reviewer/static/media/11.ecaac76e8b7f0de86677.png",
     "static/media/1.png": "/exam-reviewer/static/media/1.9e3eb3ce432ba447e9b8.png",
@@ -20,11 +20,11 @@
     "static/media/6.png": "/exam-reviewer/static/media/6.fee0bf1fa427b6b97857.png",
     "index.html": "/exam-reviewer/index.html",
     "main.87e28da4.css.map": "/exam-reviewer/static/css/main.87e28da4.css.map",
-    "main.5f1a2489.js.map": "/exam-reviewer/static/js/main.5f1a2489.js.map",
+    "main.436e6554.js.map": "/exam-reviewer/static/js/main.436e6554.js.map",
     "453.2a684bb4.chunk.js.map": "/exam-reviewer/static/js/453.2a684bb4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87e28da4.css",
-    "static/js/main.5f1a2489.js"
+    "static/js/main.436e6554.js"
   ]
 }

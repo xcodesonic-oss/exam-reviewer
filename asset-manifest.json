@@ -1,15 +1,30 @@
 {
   "files": {
     "main.css": "/exam-reviewer/static/css/main.87e28da4.css",
-    "main.js": "/exam-reviewer/static/js/main.42999cc4.js",
+    "main.js": "/exam-reviewer/static/js/main.5f1a2489.js",
     "static/js/453.2a684bb4.chunk.js": "/exam-reviewer/static/js/453.2a684bb4.chunk.js",
+    "static/media/11.png": "/exam-reviewer/static/media/11.ecaac76e8b7f0de86677.png",
+    "static/media/1.png": "/exam-reviewer/static/media/1.9e3eb3ce432ba447e9b8.png",
+    "static/media/9.png": "/exam-reviewer/static/media/9.2c13cf35cebd784b32e4.png",
+    "static/media/10.png": "/exam-reviewer/static/media/10.3affadf74f09af66524a.png",
+    "static/media/12.png": "/exam-reviewer/static/media/12.6185cd27737838952bd9.png",
+    "static/media/13.png": "/exam-reviewer/static/media/13.f82b4138b502d0f53007.png",
+    "static/media/2.png": "/exam-reviewer/static/media/2.7886f49f3ef2721cfd7a.png",
+    "static/media/4.png": "/exam-reviewer/static/media/4.58a23637919320c0767f.png",
+    "static/media/5.png": "/exam-reviewer/static/media/5.b1ed5860564092e3159b.png",
+    "static/media/14.png": "/exam-reviewer/static/media/14.d56e573600c6e3434848.png",
+    "static/media/7.png": "/exam-reviewer/static/media/7.ef9e688847516f5bc848.png",
+    "static/media/3.png": "/exam-reviewer/static/media/3.2c64e1be79e0daf6a0c2.png",
+    "static/media/15.png": "/exam-reviewer/static/media/15.0700e22aec9b1e9fd242.png",
+    "static/media/8.png": "/exam-reviewer/static/media/8.437a65ba2c1342ed6344.png",
+    "static/media/6.png": "/exam-reviewer/static/media/6.fee0bf1fa427b6b97857.png",
     "index.html": "/exam-reviewer/index.html",
     "main.87e28da4.css.map": "/exam-reviewer/static/css/main.87e28da4.css.map",
-    "main.42999cc4.js.map": "/exam-reviewer/static/js/main.42999cc4.js.map",
+    "main.5f1a2489.js.map": "/exam-reviewer/static/js/main.5f1a2489.js.map",
     "453.2a684bb4.chunk.js.map": "/exam-reviewer/static/js/453.2a684bb4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87e28da4.css",
-    "static/js/main.42999cc4.js"
+    "static/js/main.5f1a2489.js"
   ]
 }

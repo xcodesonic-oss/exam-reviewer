@@ -3202,7 +3202,6 @@ export const questionSets = [
   correctAnswer: 'npm start',
   explanation: '`npm start` runs the development server that launches your React app in the browser.'
 },
-,
 {
   id: 2,
   type: 'multiple-choice',
